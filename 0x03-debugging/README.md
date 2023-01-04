@@ -1,19 +1,19 @@
-#C -Debugging
+# Debugging
 
-#TASKS
+Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn how to debug in **C language**.
 
-0. Multiple mains 
-In most projects, we often give you only one main file to test with. For example, this main file is a test for a postitive_or_negative() function similar to the one you worked with in an earlier C project:
+## Technologies
+* C files are compiled using `gcc 4.8.4`
+* C files are written according to the C90 standard
+* Tested on Ubuntu 14.04 LTS
 
-1. Like, comment, subscribe
-Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
+## Files
+All of the following files are programs written in C:
 
-Don’t add or remove any lines of code, as we will be checking your line count. You are only allowed to comment out existing code.
-You do not have to compile with -Wall -Werror -Wextra -pedantic for this task.
-
-2. 0 > 972?
-This program prints the largest of three integers.
-
-3. Leap year
-This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration.
-
+| Filename | Description |
+| -------- | ----------- |
+| `0-main.c` | Test that function `positive_or_negative()` gives the correct output when given a case of `0` |
+| `1-main.c` | Fixed program to the infinite loop |
+| `2-largest_number.c` | Prints the largest of three integers |
+| `3-print_remaining_days.c` | Converts a date to the day of year and determines how many days are left in the year |
+| `holberton.h` | Header file |
